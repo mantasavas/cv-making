@@ -9,12 +9,10 @@ body{
 
 #my-name{
 	display: inline-block;
-	border: solid 2px black;
 }
 
 #my-profession{
 	display: inline-block;
-	border: solid 2px black;
 	margin-left: 30%
 
 }
@@ -52,13 +50,12 @@ img
 header{
 	background-color: #22447a;
 	color: white;
-	border: solid black 2px;
 	margin: 0px;
 	width: 100%;
+	padding-bottom: 30px;
 }
 
 #header-info{
-	border: solid black 2px;
 	width: 70%;
 	margin-left: 300px;
 }
