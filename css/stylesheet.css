@@ -13,8 +13,8 @@ body{
 
 #my-profession{
 	display: inline-block;
-	margin-left: 50%
-
+	float: right;
+	margin-top: 32px;
 }
 
 #my-profile-links li a{
@@ -25,8 +25,7 @@ body{
 #my-profile-links li{
 	list-style: none;
 	display: inline; 
-	margin-right: 15%;
-	
+	margin-right: 10%;
 }
 
 #my-profile-links li:last-child{
@@ -40,32 +39,30 @@ body{
 img
 {
 	border-radius: 50%;
-	width:150px; 
+	width:200px; 
     height: auto;
-    margin-left: 20px;
-    margin-bottom: 30px;
     position: absolute;
 	z-index: 10;
-	top: 6%;
+	top: 4.5%;
 	left: 12%;
 }
 
 header{
 	background-color: #22447a;
 	color: white;
-	margin: 0px;
+	margin: 0;
 	width: 100%;
-	padding-bottom: 10px;
+	padding-bottom: 1.5%;
 }
 
 #header-info{
-	width: 55%;	
+	width: 65%;	
 	margin-left: 25%;
 }
 
 #about-me{
 	margin-left: 25%;
-	width: 55%;
+	width: 65%;
 	margin-top: 5px;
 	text-align: justify;
 }
@@ -73,14 +70,156 @@ header{
 #who-i{
 	color: #ff6600;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 
 .border-bottom{
 	border-bottom: 2px solid white;
-	padding-bottom: 2px;
+	padding-bottom: 1%;
 }
 
 #profile-photo{
 	border: 5px solid white;
+}
+
+
+@media only screen and (max-width: 1550px) {
+	#my-profile-links li:nth-child(3), #my-profile-links li:nth-child(4){
+		display: inline;
+		clear: both;
+	}
+
+	#my-profile-links li:nth-child(3){
+		padding-right: 74px;
+	}
+
+	#my-profile-links li:nth-child(2):after { 
+	     content: "\A";
+	     white-space: pre; 
+	}
+
+	img{
+		width: 170px;
+	}
+
+	#header-info li a{
+		line-height: 170%;
+	}
+
+}
+
+@media only screen and (max-width: 1200px) {
+	img{
+		width: 150px;
+	}
+
+	#header-info li a{
+		line-height: 170%;
+	}
+} 
+
+@media only screen and (max-width: 1000px) {
+	#header-info{
+		margin-left: 30%;
+	}
+
+	#about-me{
+		margin-left: 30%;
+	}
+
+	#my-name{
+		font-size: 30px;
+	}
+
+	#my-profession{
+		font-size: 17px;
+	}
+
+	#header-info li a{
+		line-height: 170%;
+	}
+} 
+
+
+@media only screen and (max-width: 760px) {
+	#header-info{
+		margin-top: 10%;
+		padding-top: 20%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+
+	#about-me{
+		width: 100%;
+		margin-left: 0%;
+
+	}
+
+	img{
+		top: 0;
+		left: 37%;
+	}
+
+	#header-info li a{
+		line-height: 170%;
+	}
+}
+
+@media only screen and (max-width: 580px){
+	.border-bottom{
+		padding-top: 5%;
+	}
+
+	#my-profession, #my-name{
+		display: block;
+		
+	}
+
+	#my-name{
+		padding-left: 18%;
+	}
+
+	#my-profession{
+		margin-top: 0;
+		float: none;
+		padding-left: 33%;
+	}
+
+	#header-info li a{
+		line-height: 170%;
+	}
+}
+
+@media only screen and (max-width: 525px){
+
+	#my-profile-links li:nth-child(1):after,
+	#my-profile-links li:nth-child(3):after { 
+	     content: "\A";
+	     white-space: pre; 
+	}
+
+	.border-bottom{
+		padding-top: 12%;
+	}
+
+	#header-info li a{
+		line-height: 170%;
+	}
+
+	#my-profile-links{
+		width: 100%;
+		margin-left: 5%;
+	}
+
+	img{
+		top: 0;
+		left: 31%;
+		width: 38%;
+	}
+
+	body{
+		width: 100%;
+	}
 }
