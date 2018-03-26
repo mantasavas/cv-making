@@ -93,6 +93,7 @@ header{
 	width: 100%;
 	border:1px dotted blue;
 	padding-right: 0;
+	margin-top: 2%;
 }
 
 .section-two-columns{
@@ -100,13 +101,17 @@ header{
 	padding-right: 5%;
 	padding-left: 5%;
 	float: left;
+	padding-top: 2%;
 }
 
 .section-two-columns:nth-of-type(3){
-	margin-top: -15%
+	margin-top: -3%;
+	/*border:1px dotted blue;*/
 }
 
-
+.header-separator{
+	text-transform: uppercase;
+}
 
 
 .header-separator::after{
@@ -114,10 +119,11 @@ header{
     display: inline-block;
     height: 0.5em;
     vertical-align: bottom;
-    width: 70%;
-    margin-right: -100%;
+    width: 100%;
+    margin-right: 0%;
     margin-left: 10px;
     border-top: 3px solid red;
+
 }
 
 .left-section, .right-section{
@@ -126,16 +132,25 @@ header{
 }
 
 .left-section{
+	width: 14%;
 
 } 
 
 .right-section{
 	width: 72%;
-	margin-left: 5%;
+	margin-left: 10%;
+	border-bottom: 2px solid black;
 }
 
 
+.orrange{
+	color: #ff6600;
+}
 
+.blue{
+	color: #22447a;
+	font-weight: bold;
+}
 
 
 
