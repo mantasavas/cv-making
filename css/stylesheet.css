@@ -1,405 +1,318 @@
 body{
-	width: 80%;
-	margin:0 auto;
-	padding-bottom: 30px;
+     width: 80%;
+     margin:0 auto;
+     padding-bottom: 30px;
 }
-
-p{
-	text-align: justify;
+ p{
+     text-align: justify;
 }
-
-#my-profile-links{
-	padding-left: 0;
+ #my-profile-links{
+     padding-left: 0;
 }
-
-#my-name{
-	display: inline-block;
+ #my-name{
+     display: inline-block;
 }
-
-#my-profession{
-	display: inline-block;
-	float: right;
-	margin-top: 32px;
+ #my-profession{
+     display: inline-block;
+     float: right;
+     margin-top: 32px;
 }
-
-#my-profile-links li a{
-	text-decoration: none;
-	color: white;
+ #my-profile-links li a{
+     text-decoration: none;
+     color: white;
 }
-
-#my-profile-links li{
-	list-style: none;
-	display: inline; 
-	margin-right: 10%;
+ #my-profile-links li{
+     list-style: none;
+     display: inline;
+     margin-right: 10%;
 }
-
-#my-profile-links li:last-child{
-	margin-right: 0;
+ #my-profile-links li:last-child{
+     margin-right: 0;
 }
-
-.social-links{
-	padding: 0;
+ .social-links{
+     padding: 0;
 }
-
-img
-{
-	border-radius: 50%;
-	width:200px; 
-    height: auto;
-    position: absolute;
-	z-index: 10;
-	top: 4.5%;
-	left: 12%;
+ img {
+     border-radius: 50%;
+     width:200px;
+     height: auto;
+     position: absolute;
+     z-index: 10;
+     top: 4.5%;
+     left: 12%;
 }
-
-header{
-	background-color: #22447a;
-	color: white;
-	margin: 0;
-	width: 100%;
-	padding-bottom: 1.5%;
+ header{
+     background-color: #22447a;
+     color: white;
+     margin: 0;
+     width: 100%;
+     padding-bottom: 1.5%;
 }
-
-#header-info{
-	width: 65%;	
-	margin-left: 25%;
+ #header-info{
+     width: 65%;
+     margin-left: 25%;
 }
-
-#about-me{
-	margin-left: 25%;
-	width: 65%;
-	margin-top: 5px;
-	text-align: justify;
+ #about-me{
+     margin-left: 25%;
+     width: 65%;
+     margin-top: 5px;
+     text-align: justify;
 }
-
-#who-i{
-	color: #ff6600;
-	font-weight: bold;
-	text-transform: uppercase;
+ #who-i{
+     color: #ff6600;
+     font-weight: bold;
+     text-transform: uppercase;
 }
-
-
-.border-bottom{
-	border-bottom: 2px solid white;
-	padding-bottom: 1%;
+ .border-bottom{
+     border-bottom: 2px solid white;
+     padding-bottom: 1%;
 }
-
-#profile-photo{
-	border: 5px solid white;
+ #profile-photo{
+     border: 5px solid white;
 }
-
-
-.container{
-	display:inline-block;
-	width: 100%;
-	/*border:1px dotted blue;*/
-	padding-right: 0;
-	margin-top: 2%;
+ .container{
+     display:inline-block;
+     width: 100%;
+    /*border:1px dotted blue;
+     */
+     padding-right: 0;
+     margin-top: 2%;
 }
-
-.section-two-columns{
-	width: 40%;
-	padding-right: 5%;
-	padding-left: 5%;
-	float: left;
-	padding-top: 2%;
+ .section-two-columns{
+     width: 40%;
+     padding-right: 5%;
+     padding-left: 5%;
+     float: left;
+     padding-top: 2%;
 }
-
-.section-two-columns:nth-of-type(3){
-	margin-top: -3%;
-	/*border:1px dotted blue;*/
+ .section-two-columns:nth-of-type(3){
+     margin-top: -3%;
+    /*border:1px dotted blue;
+     */
 }
-
-.header-separator{
-	text-transform: uppercase;
+ .header-separator{
+     text-transform: uppercase;
 }
-
-
-.header-separator::after{
-	content:"";
-    display: inline-block;
-    height: 0.5em;
-    vertical-align: bottom;
-    width: 100%;
-    margin-right: 0%;
-    margin-left: 10px;
-    border-top: 3px solid red;
-
+ .header-separator::after{
+     content:"";
+     display: inline-block;
+     height: 0.5em;
+     vertical-align: bottom;
+     width: 100%;
+     margin-right: 0%;
+     margin-left: 10px;
+     border-top: 3px solid red;
 }
-
-.left-section, .right-section{
-	display: inline-block;
-	vertical-align: top;
+ .left-section, .right-section{
+     display: inline-block;
+     vertical-align: top;
 }
-
-.left-section{
-	width: 14%;
-
-} 
-
-.right-section{
-	width: 72%;
-	margin-left: 10%;
-	border-bottom: 2px solid black;
+ .left-section{
+     width: 14%;
 }
-
-
-.orrange{
-	color: #ff6600;
+ .right-section{
+     width: 72%;
+     margin-left: 10%;
+     border-bottom: 2px solid black;
 }
-
-.blue{
-	color: #22447a;
-	font-weight: bold;
+ .orrange{
+     color: #ff6600;
 }
-
-
+ .blue{
+     color: #22447a;
+     font-weight: bold;
+}
 /*Circles*/
-
-.section-two-columns{}
-
-
-.language-circles{
-	position: relative;
-	margin-right: 12%;
-	padding-bottom: 80%;
-	width: 100%;
-	/*border:1px dotted blue;*/
+ .section-two-columns{
 }
-
-.python{
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  font-size: 20px;
-  color: #fff;
-  line-height: 300px;
-  text-align: center;
-  background: #000;
-
-  position: absolute;
-  top: 80px;
-  right: 150px;
+ .language-circles{
+     position: relative;
+     margin-right: 12%;
+     padding-bottom: 80%;
+     width: 100%;
+    /*border:1px dotted blue;
+     */
 }
-
-
-
-.javascript{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  font-size: 20px;
-  color: #fff;
-  line-height: 200px;
-  text-align: center;
-  background: red;
-
-  position: absolute;
-  top: 0%;
-  right: 20%;
-  
+ .python{
+     width: 300px;
+     height: 300px;
+     border-radius: 50%;
+     font-size: 20px;
+     color: #fff;
+     line-height: 300px;
+     text-align: center;
+     background: #000;
+     position: absolute;
+     top: 80px;
+     right: 150px;
 }
-
-
-.java{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  font-size: 20px;
-  color: #fff;
-  line-height: 200px;
-  text-align: center;
-  background: blue;
-
-  position: absolute;
-  top: 280px;
-  right: 90px;
+ .javascript{
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     font-size: 20px;
+     color: #fff;
+     line-height: 200px;
+     text-align: center;
+     background: red;
+     position: absolute;
+     top: 0%;
+     right: 20%;
 }
-
-
-.sql{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  font-size: 20px;
-  color: #fff;
-  line-height: 200px;
-  text-align: center;
-  background: green;
-
-  position: absolute;
-  top: 250px;
-  right: 350px;
+ .java{
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     font-size: 20px;
+     color: #fff;
+     line-height: 200px;
+     text-align: center;
+     background: blue;
+     position: absolute;
+     top: 280px;
+     right: 90px;
 }
-
-
-
-.tick-header, .ticks{
-	display: inline-block;
-	padding-top: 0px;
-	margin-bottom: 0px;
-	/*border: 1px solid black;*/
+ .sql{
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     font-size: 20px;
+     color: #fff;
+     line-height: 200px;
+     text-align: center;
+     background: green;
+     position: absolute;
+     top: 250px;
+     right: 350px;
 }
-
-.tick-header{
-	width: 30%;
+ .tick-header, .ticks{
+     display: inline-block;
+     padding-top: 0px;
+     margin-bottom: 0px;
+    /*border: 1px solid black;
+     */
 }
-
-
-.ticks{
-	width: 40%;
-	padding-left: 27%;
+ .tick-header{
+     width: 30%;
 }
-
-.filled{
-	color: red;
+ .ticks{
+     width: 40%;
+     padding-left: 27%;
 }
-
-.full-section{
-	border-bottom: 2px solid black;
+ .filled{
+     color: red;
 }
-
-.spacing{
-	line-height: 7px;
+ .full-section{
+     border-bottom: 2px solid black;
 }
-
-
-@media only screen and (max-width: 1550px) {
-	#my-profile-links li:nth-child(3), #my-profile-links li:nth-child(4){
-		display: inline;
-		clear: both;
-	}
-
-	#my-profile-links li:nth-child(3){
-		padding-right: 74px;
-	}
-
-	#my-profile-links li:nth-child(2):after { 
-	     content: "\A";
-	     white-space: pre; 
-	}
-
-	img{
-		width: 170px;
-	}
-
-	#header-info li a{
-		line-height: 170%;
-	}
-
+ .spacing{
+     line-height: 7px;
 }
-
-@media only screen and (max-width: 1200px) {
-	img{
-		width: 150px;
-	}
-
-	#header-info li a{
-		line-height: 170%;
-	}
-} 
-
-@media only screen and (max-width: 1000px) {
-	#header-info{
-		margin-left: 30%;
-	}
-
-	#about-me{
-		margin-left: 30%;
-	}
-
-	#my-name{
-		font-size: 30px;
-	}
-
-	#my-profession{
-		font-size: 17px;
-	}
-
-	#header-info li a{
-		line-height: 170%;
-	}
-} 
-
-
-@media only screen and (max-width: 760px) {
-	#header-info{
-		margin-top: 10%;
-		padding-top: 20%;
-		margin-left: auto;
-		margin-right: auto;
-		width: 90%;
-	}
-
-	#about-me{
-		width: 100%;
-		margin-left: 0%;
-
-	}
-
-	img{
-		top: 0;
-		left: 37%;
-	}
-
-	#header-info li a{
-		line-height: 170%;
-	}
+ @media only screen and (max-width: 1550px) {
+     #my-profile-links li:nth-child(3), #my-profile-links li:nth-child(4){
+         display: inline;
+         clear: both;
+    }
+     #my-profile-links li:nth-child(3){
+         padding-right: 74px;
+    }
+     #my-profile-links li:nth-child(2):after {
+         content: "\A";
+         white-space: pre;
+    }
+     img{
+         width: 170px;
+    }
+     #header-info li a{
+         line-height: 170%;
+    }
 }
-
-@media only screen and (max-width: 580px){
-	.border-bottom{
-		padding-top: 5%;
-	}
-
-	#my-profession, #my-name{
-		display: block;
-		
-	}
-
-	#my-name{
-		padding-left: 18%;
-	}
-
-	#my-profession{
-		margin-top: 0;
-		float: none;
-		padding-left: 33%;
-	}
-
-	#header-info li a{
-		line-height: 170%;
-	}
+ @media only screen and (max-width: 1200px) {
+     img{
+         width: 150px;
+    }
+     #header-info li a{
+         line-height: 170%;
+    }
 }
-
-@media only screen and (max-width: 525px){
-
-	#my-profile-links li:nth-child(1):after,
-	#my-profile-links li:nth-child(3):after { 
-	     content: "\A";
-	     white-space: pre; 
-	}
-
-	.border-bottom{
-		padding-top: 12%;
-	}
-
-	#header-info li a{
-		line-height: 170%;
-	}
-
-	#my-profile-links{
-		width: 100%;
-		margin-left: 5%;
-	}
-
-	img{
-		top: 0;
-		left: 31%;
-		width: 38%;
-	}
-
-	body{
-		width: 100%;
-	}
+ @media only screen and (max-width: 1000px) {
+     #header-info{
+         margin-left: 30%;
+    }
+     #about-me{
+         margin-left: 30%;
+    }
+     #my-name{
+         font-size: 30px;
+    }
+     #my-profession{
+         font-size: 17px;
+    }
+     #header-info li a{
+         line-height: 170%;
+    }
 }
+ @media only screen and (max-width: 760px) {
+     #header-info{
+         margin-top: 10%;
+         padding-top: 20%;
+         margin-left: auto;
+         margin-right: auto;
+         width: 90%;
+    }
+     #about-me{
+         width: 100%;
+         margin-left: 0%;
+    }
+     img{
+         top: 0;
+         left: 37%;
+    }
+     #header-info li a{
+         line-height: 170%;
+    }
+}
+ @media only screen and (max-width: 580px){
+     .border-bottom{
+         padding-top: 5%;
+    }
+     #my-profession, #my-name{
+         display: block;
+    }
+     #my-name{
+         padding-left: 18%;
+    }
+     #my-profession{
+         margin-top: 0;
+         float: none;
+         padding-left: 33%;
+    }
+     #header-info li a{
+         line-height: 170%;
+    }
+}
+ @media only screen and (max-width: 525px){
+     #my-profile-links li:nth-child(1):after, #my-profile-links li:nth-child(3):after {
+         content: "\A";
+         white-space: pre;
+    }
+     .border-bottom{
+         padding-top: 12%;
+    }
+     #header-info li a{
+         line-height: 170%;
+    }
+     #my-profile-links{
+         width: 100%;
+         margin-left: 5%;
+    }
+     img{
+         top: 0;
+         left: 31%;
+         width: 38%;
+    }
+     body{
+         width: 100%;
+    }
+}
+ 
